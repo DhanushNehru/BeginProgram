@@ -29,7 +29,7 @@ main()
         else if(count==8)
             a=a*a*a*a*a*a*a*a;
         else if(count==9)
-            a=a*a*a*a*a*a*a*a;
+            a=a*a*a*a*a*a*a*a*a;
         else
             a=a;
         sum=sum+a;
