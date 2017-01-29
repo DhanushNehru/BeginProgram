@@ -1,11 +1,8 @@
 #include<stdio.h>
+#include<stdbool.h>
 main()
 {
-    char ch[30];
-    printf("Enter a string ;;");
+    char ch[30];int x = 1,y = 0;
     scanf("%s",&ch);
-    if(ch[0]>='0' && ch[0]<='9')
-        printf("True");
-    else
-        printf("False");
+    printf((ch[0]>='0' && ch[0]<='9')? "true" : "false");
 }
